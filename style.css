@@ -156,10 +156,31 @@ nav a:hover {
 }
 
 .back {
-    display: inline-block;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
     margin-bottom: 30px;
+
+    padding: 10px 20px;
+
+    background: white;
     color: #315efb;
+
+    border: 1px solid #dce2f2;
+    border-radius: 10px;
+
     text-decoration: none;
+    font-weight: bold;
+
+    box-shadow: 0 4px 12px rgba(30, 50, 90, 0.08);
+
+    transition: 0.2s;
+}
+
+.back:hover {
+    background: #315efb;
+    color: white;
+    transform: translateY(-2px);
 }
 
 footer {
